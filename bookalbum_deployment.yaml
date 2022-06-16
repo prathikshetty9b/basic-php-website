@@ -1,21 +1,21 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: bookalbum_batch_3
+  name: bookalbumbatch3
   labels:
-    app: bookalbum_batch_3
+    app: bookalbumbatch3
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: bookalbum_batch_3
+      app: bookalbumbatch3
   template:
     metadata:
       labels:
-        app: bookalbum_batch_3
+        app: bookalbumbatch3
     spec:
       containers:
-      - name: bookalbum_batch_3
+      - name: bookalbumbatch3
         image: prady9448/bookalbum:latest
         ports:
         - containerPort: 80
