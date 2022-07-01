@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: bookalbumbatch3
-        image: suryakasal/bookalbum:latest
+        image: prady9448/bookalbum:latest
         ports:
         - containerPort: 80
